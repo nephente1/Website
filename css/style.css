@@ -112,7 +112,7 @@ p {
 #section1 {
   position: relative;
   height: 100vh;
-  background: url(7c1e3e07ceac916efc64702428d38d0b.jpg) no-repeat;
+  background: url(https://raw.githubusercontent.com/nephente1/Website/master/images/tlo1.jpg) no-repeat;
   overflow: hidden;
   background-size: cover;
   display: flex;
@@ -252,7 +252,7 @@ p {
 
 #sectionQuote {
   padding: 2em 0;
-  background: url(1d9edbee6bd4950d9419d59e1619b1fc.jpg) no-repeat;
+  background: url("https://raw.githubusercontent.com/nephente1/Website/master/images/motto2.jpg") no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -280,7 +280,7 @@ p {
 /*SECTION 2*/
 #section2 {
   padding: 4em 2em;
-  background: url(e030497cc5002650c7ef1e0f02523a20.jpg);
+  background: url("https://raw.githubusercontent.com/nephente1/Website/master/images/compBg_light.jpg");
   background-size: cover;
   margin: 0;
   position: relative;
@@ -322,7 +322,7 @@ p {
 
 #section3 {
   padding: 4em 2em;
-  background: url(37951d85db3d9473d250f25c094bcfcf.jpg) no-repeat;
+  background: url("https://raw.githubusercontent.com/nephente1/Website/master/images/bg-comp2.jpg") no-repeat;
   background-size: cover;
   background-position: bottom;
   margin: 0;
@@ -343,7 +343,7 @@ p {
       transform: scale(1.2); }
 
 #section4 {
-  background: url(e030497cc5002650c7ef1e0f02523a20.jpg) no-repeat;
+  background: url("https://raw.githubusercontent.com/nephente1/Website/master/images/compBg_light.jpg") no-repeat;
   background-size: cover;
   background-position: bottom;
   background-attachment: fixed;
