@@ -114,7 +114,7 @@ p {
   	background-color: rgba(0, 0, 0, 0.4);
     cursor: pointer;
 	@media(max-width:640px){
-		right:0%;
+		right:1.5%;
 		top:0%;
 
 	}
@@ -146,8 +146,8 @@ p {
     align-content: center;
     justify-content: center;
 		@media (max-width: 760px) {
-			height: auto;
-  			padding:10em 0em 3em 0;
+			height: 70%;
+  			padding: 0em 0em 0em 0;
 		}
 }
  // SECTION 1 header
@@ -159,6 +159,11 @@ p {
     margin-bottom: 5em;
     width: 100%;
 	padding: 0 1em;
+	@media (max-width: 740px) {
+		height: auto;
+		margin-top:25%;
+		margin-bottom: 2em;
+	}
   	p {
       margin-bottom: 60px;
 		&:nth-of-type(1){
@@ -299,6 +304,9 @@ p {
 
 .firstScroll .scrollDown{
 		margin-top: 120px;
+		@media (max-width: 760px){
+		margin-top: 20px;
+		}
 	}
 
 
@@ -425,6 +433,15 @@ p {
 		height:auto;
 		margin: auto;
 	}
+	.cms{
+		width:215px;
+		height:150px;
+		margin-left: 5px;
+		transition: 0.5s;
+		&:hover{
+		opacity:0.7;
+	}
+	}
 }
 
 .col-three {
@@ -433,6 +450,15 @@ p {
 	text-align: left;
 	float: left;
 	margin-bottom:30px;
+	.next{
+		display: flex;
+		align-content: center;
+		justify-content: center;
+		margin-top: 150px;
+		@media(max-width:720px){
+			display: none;
+		}
+	}
 }
 
 @media(min-width:720px){
@@ -526,6 +552,7 @@ p {
 .fadeIn-top{
   	top: 20%;
 }
+
 
 /*SECTION 5*/
 .col-half {
